@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>multiply game</title>
+    <link rel="stylesheet" href="math.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Math&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <h1>Multiply Game</h1>
+    <div class="one">
+      <div class="text">
+        <p id="nr1">_</p>
+        <p>*</p>
+        <p id="nr2">_</p>
+        <p>=</p>
+        <input type="number" id="input" />
+      </div>
+
+      <div id="impobtns">
+        <button onclick="check()" id="start">check</button>
+        <button onclick="next()" id="next">next</button>
+      </div>
+    </div>
+    <p id="rezultati"></p>
+
+    <script src="math.js"></script>
+  </body>
+</html>
