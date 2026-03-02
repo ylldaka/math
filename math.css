@@ -21,7 +21,8 @@ h1 {
 .one {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   justify-content: center;
   height: 60vh;
   align-content: center;
@@ -29,6 +30,9 @@ h1 {
 }
 .one > p {
   text-align: center;
+}
+#input {
+  width: 100px;
 }
 p {
   text-align: center;
